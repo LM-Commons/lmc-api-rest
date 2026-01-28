@@ -15,7 +15,7 @@
     "laminas/laminas-inputfilter": "^2.0",
     "laminas/laminas-paginator": "^2.0",
     "laminas/laminas-stdlib": "^3.0",
-    "lm-commons/lmc-api-auth": "1.x-dev",
+    "lm-commons/lmc-api-auth": "1.0.x-dev",
     "lm-commons/lmc-api-problem": "1.0.x-dev ",
     "mezzio/mezzio-router": "^3.7",
     "mezzio/mezzio-problem-details": "^1.0",
@@ -68,7 +68,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "c:/lm-commons/lmc-api-auth"
+      "url": "https://github.com/LM-Commons/lmc-api-auth.git"
     },
     {
       "type": "git",

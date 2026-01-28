@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bedbf195453ccf938797ed030ee5c7a5",
+    "content-hash": "004bde0bffcfdc8cfdb3096cb2ca2add",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -762,15 +762,15 @@
         },
         {
             "name": "lm-commons/lmc-api-auth",
-            "version": "1.x-dev",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "c:/lm-commons/lmc-api-auth",
-                "reference": "a2eb620f009df57bba308db645c5d1e4cb67a5e6"
+                "url": "https://github.com/LM-Commons/lmc-api-auth.git",
+                "reference": "4db5dd3d636199a6ddabd2f0844dd18e6f7399ce"
             },
             "require": {
                 "laminas/laminas-authentication": "^2.13",
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+                "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
                 "psr/container": "^1.1 || ^2.0",
                 "psr/http-server-handler": "^1.0",
                 "psr/http-server-middleware": "^1.0"
@@ -780,7 +780,7 @@
                 "amphp/parallel": "^2.3.3",
                 "amphp/socket": "^2.3.1",
                 "laminas/laminas-coding-standard": "^3.1",
-                "phpunit/phpunit": "11.5.48",
+                "phpunit/phpunit": "^12.5",
                 "psalm/plugin-phpunit": "^0.19.5",
                 "vimeo/psalm": "6.14.3"
             },
@@ -835,7 +835,7 @@
                 }
             ],
             "description": "API tools to authenticate requests",
-            "time": "2026-01-21T22:40:49+00:00"
+            "time": "2026-01-28T19:20:37+00:00"
         },
         {
             "name": "lm-commons/lmc-api-problem",
